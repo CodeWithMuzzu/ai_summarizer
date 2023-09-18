@@ -11,7 +11,7 @@ const Hero = () => {
           className="black_btn"
           type="button"
           onClick={() => {
-            window.open("GITHUB URL");
+            window.open("https://ai-summarizer-27egt5p62-codewithmuzzu.vercel.app/");
           }}
         >
           Github

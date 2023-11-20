@@ -7,15 +7,19 @@ const Hero = () => {
       <nav className="flex justify-between items-center w-full mb-10 pt-3">
         <img src={logo} alt="summz_logo" className="w-28 object-contain" />
 
+        <a href="https://github.com/CodeWithMuzzu/ai_summarizer">
         <button
           className="black_btn"
           type="button"
-          onClick={() => {
-            window.open("https://ai-summarizer-27egt5p62-codewithmuzzu.vercel.app/");
-          }}
+          // onClick={() => {
+          //   window.open("https://ai-summarizer-27egt5p62-codewithmuzzu.vercel.app/");
+          // }}
         >
           Github
-        </button>
+          </button>
+        </a>
+        
+        
       </nav>
 
       <h1 className="head_text">
